@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApplication1_corp_nmhg_global_enmdevex_Services" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://enmiis01.global.nmhg.corp/AEPM_services/Services.svc</Value>
+    </Setting>
+    <Setting Name="AEPM_APICmd_AEPM_Test1_Services" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://enmdevex.global.nmhg.corp:82/AEPM_services/Services.svc</Value>
+    </Setting>
+    <Setting Name="as400" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AC4TDAN1</Value>
+    </Setting>
+    <Setting Name="library" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CGJLEGAC</Value>
+    </Setting>
+    <Setting Name="errorFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">errorSweep.csv</Value>
+    </Setting>
+    <Setting Name="successFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">successSweep.csv</Value>
+    </Setting>
+    <Setting Name="toEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cgjlegac@nmhg.com,cgjlegac@nmhg.com</Value>
+    </Setting>
+    <Setting Name="fromEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cgjlegac@nmhg.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
